@@ -13,6 +13,8 @@
 		C2896A5F279EE38100DBCA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2896A5D279EE38100DBCA5B /* Main.storyboard */; };
 		C2896A61279EE38400DBCA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2896A60279EE38400DBCA5B /* Assets.xcassets */; };
 		C2896A64279EE38400DBCA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2896A62279EE38400DBCA5B /* LaunchScreen.storyboard */; };
+		C2896A6D279EE44700DBCA5B /* RatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2896A6B279EE44700DBCA5B /* RatingTableViewCell.swift */; };
+		C2896A6E279EE44700DBCA5B /* RatingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2896A6C279EE44700DBCA5B /* RatingTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C2896A60279EE38400DBCA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2896A63279EE38400DBCA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2896A65279EE38400DBCA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2896A6B279EE44700DBCA5B /* RatingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingTableViewCell.swift; sourceTree = "<group>"; };
+		C2896A6C279EE44700DBCA5B /* RatingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		C2896A4B279EE38100DBCA5B = {
 			isa = PBXGroup;
 			children = (
+				C2896A6B279EE44700DBCA5B /* RatingTableViewCell.swift */,
+				C2896A6C279EE44700DBCA5B /* RatingTableViewCell.xib */,
 				C2896A56279EE38100DBCA5B /* RatingApp */,
 				C2896A55279EE38100DBCA5B /* Products */,
 			);
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2896A6E279EE44700DBCA5B /* RatingTableViewCell.xib in Resources */,
 				C2896A64279EE38400DBCA5B /* LaunchScreen.storyboard in Resources */,
 				C2896A61279EE38400DBCA5B /* Assets.xcassets in Resources */,
 				C2896A5F279EE38100DBCA5B /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2896A6D279EE44700DBCA5B /* RatingTableViewCell.swift in Sources */,
 				C2896A5C279EE38100DBCA5B /* ViewController.swift in Sources */,
 				C2896A58279EE38100DBCA5B /* AppDelegate.swift in Sources */,
 				C2896A5A279EE38100DBCA5B /* SceneDelegate.swift in Sources */,
