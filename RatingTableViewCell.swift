@@ -10,19 +10,12 @@ import UIKit
 class RatingTableViewCell: UITableViewCell {
     
     @IBOutlet var starButtons: [UIButton]!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+    @IBOutlet var emailBtn: UIButton!
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state    }
-}
+    @IBOutlet var emailheight: NSLayoutConstraint!
     @IBAction func StarButtontapped(_ sender: UIButton) {
         print("Rated \(sender.tag) star.")
+        emailBtn.isHidden = false
         for button in starButtons {
             if button.tag <= sender.tag {
                 
@@ -35,4 +28,7 @@ class RatingTableViewCell: UITableViewCell {
         }
     }
     
+    @IBAction func emailAction(_ sender: Any) {
+        print("Send email")
+    }
 }
